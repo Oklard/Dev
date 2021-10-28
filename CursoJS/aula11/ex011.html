@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+   <h1>Seu lugar no mundo</h1>
+    <p>De onde você é?<input id="textnac"></p><input type="button" value="verficar" onclick="Origem()">
+    <div id="res"></div>
+    <script>
+    function Origem(){
+    var textnac = window.document.querySelector('#textnac')
+    var res =window.document.querySelector ('div#res')
+    console.log(textnac.value)
+    if (textnac.value == 'Brasil'){
+        res.innerHTML = 'HUEHUEHUEBR'
+    }else{
+        res.innerHTML = 'Not HUE'
+    }
+}
+</script>
+</body>
+</html>
