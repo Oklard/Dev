@@ -1,0 +1,33 @@
+h1 {
+    position: fixed;
+}
+@media (min-width: 600px){
+    nav{
+        nav-down: auto;
+        
+    }
+}
+.nav-link {
+    display: flex;
+    width: 160px;
+    border: 15px solid rgb(241, 177, 37);
+    padding: 5px;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-content: center;
+    float: left;
+    border-radius: 25%;
+}
+.nav-lin{
+    max-width: 10px;   
+}
+#video{
+    position: relative;
+}
+#header.header#header-img {
+    max-width: 50px,50px;
+
+}
+section{
+    text-align: center;
+}
