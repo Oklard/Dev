@@ -1,0 +1,28 @@
+/*.wrong {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgba(245, 153, 153, 0.541);
+    font-size: 18px;
+    transition: 0.2s;
+}
+.right{
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgba(189, 243, 173, 0.384);
+    font-size: 18px;
+    transition: 0.2s;*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav#navbar {
+  position: relative;
+  display: flex;
+  -ms-flex-align: start;
+  flex-direction: row;
+  margin: left;
+  justify-content: space-between;
+  background-color: hotpink;
+}
